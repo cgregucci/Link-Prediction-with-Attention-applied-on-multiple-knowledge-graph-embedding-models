@@ -56,7 +56,6 @@ class TransE(BaseE):
         return lhs_e, lhs_biases
 
 class Distmult(BaseE):
-    """Euclidean translations https://www.utc.fr/~bordesan/dokuwiki/_media/en/transe_nips13.pdf"""
 
     def __init__(self, args):
         super(Distmult, self).__init__(args)
@@ -176,8 +175,7 @@ class AttE(BaseE):
         return lhs_e, self.bh(queries[:, 0])
 
 class SEA(BaseE):
-    """Euclidean attention model combining translations, reflections and rotations"""
-
+    """Euclidean attention model combining several query representations"""
     def __init__(self, args):
         super(SEA, self).__init__(args)
         self.sim = "dist"
