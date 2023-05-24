@@ -3,7 +3,14 @@
 This code is the official PyTorch implementation of [Link Prediction with attention applied on multiple knowledge graph embedding models](https://dl.acm.org/doi/pdf/10.1145/3543507.3583358) [1] .
 This implementation lies on the KGEmb framework developed by [2] 
 
+## Datasets
 
+Download and pre-process the datasets:
+
+```bash
+source datasets/download.sh
+python datasets/process.py
+```
 ## Installation
 
 First, create a python 3.7 environment and install dependencies:
