@@ -1,4 +1,4 @@
-# Hyperbolic Knowledge Graph Embedding 
+# Link Prediction with attention applied on multiple knowledge graph embedding models
 
 This code is the official PyTorch implementation of [Link Prediction with attention applied on multiple knowledge graph embedding models](https://dl.acm.org/doi/pdf/10.1145/3543507.3583358) [1] .
 This implementation lies on the KGEmb framework developed by [2] 
