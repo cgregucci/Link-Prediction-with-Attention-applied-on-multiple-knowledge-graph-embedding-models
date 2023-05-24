@@ -108,7 +108,7 @@ class AttH(BaseH):
         return (res, c), self.bh(queries[:, 0])
 
 class SEPA(BaseH):
-    """Hyperbolic attention model combining translations, reflections and rotations"""
+    """Hyperbolic attention model combining several query representations"""
 
     def __init__(self, args):
         super(SEPA, self).__init__(args)
